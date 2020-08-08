@@ -12,3 +12,5 @@ ________________________________________________________________________________
 #VideoPixelator
 Video pixelator takes a video as input, breaks it into frames and pixelates them to create a pixelated video.
 _____________________________________________________________________________________________________________________________________________________
+#HatTrick
+A simple computer vision program that identifies faces in an image and puts a sombrero a on the head.
