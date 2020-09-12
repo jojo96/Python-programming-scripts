@@ -1,0 +1,22 @@
+How to run Streamlit from Colab:
+
+!pip install streamlit -q
+!pip install chatterbot
+!pip install chatterbot_corpus
+#whatever libraries you need
+!pip install pyngrok
+
+#upload file to colab runtime
+!streamlit run cbv.py &>/dev/null&
+#!streamlit run FILENAME.py &>/dev/null&
+
+from pyngrok import ngrok
+# Setup a tunnel to the streamlit port 8501
+public_url = ngrok.connect(port='8501')
+public_url
+#run the public url to see your app
+
+#to stop app
+!pgrep streamlit
+ngrok.kill()
+
