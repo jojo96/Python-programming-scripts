@@ -17,3 +17,6 @@ A simple computer vision program that identifies faces in an image and puts a so
 _____________________________________________________________________________________________________________________________________________________
 #Iris Detection
 A simple iris detector using python. The iris is masked in the final image.
+_____________________________________________________________________________________________________________________________________________________
+#Deep Learning
+There are some notebooks from the repository: https://github.com/fchollet/deep-learning-with-python-notebooks
