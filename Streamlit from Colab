@@ -4,7 +4,7 @@ How to run Streamlit from Colab:
 !pip install chatterbot
 !pip install chatterbot_corpus
 #whatever libraries you need
-!pip install pyngrok
+!pip install pyngrok==4.1.1 
 
 #upload file to colab runtime
 !streamlit run cbv.py &>/dev/null&
